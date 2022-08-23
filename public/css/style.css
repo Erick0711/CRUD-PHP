@@ -1,0 +1,51 @@
+.table td, .table th{
+    padding: 8px;
+}
+.pag_btn {
+    border: solid 1px;
+    border-color: rgb(27, 27, 29);
+    color: rgb(32, 32, 102);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    transition: 1s all;
+}
+.pag_btn:hover{
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+.pag_btn_des {
+    border: solid 1px;
+    border-color: rgb(200, 200, 200);
+    color: rgb(200, 200, 200);
+    background-color: rgb(245, 245, 245);
+}
+ 
+.pag_num {
+    border: solid 1px;
+    border-color: rgb(27, 27, 29);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 5rem;
+    text-align: center;
+    background-color: #000;
+}
+
+/* ADAPTANDO TAMAÑO MODAL */
+.modal-dialog{
+    max-width: 700px;
+    padding: 5px;
+}
+.modal-content{
+    min-height: 500px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 1)
+}
+.modal-header{
+    border-bottom: none;
+}
+/* PAGINA EDITAR */
+.container-editar{
+    background-color: #343a40;
+    border-radius: 5px;
+    padding: 15px;
+}
